@@ -22,7 +22,7 @@
  * @author Mauro Caporuscio 
  */
 
-package org.smscom.prime.extension.goprime.management.assemblymanagement;
+package org.prime.extensions.goprime.management.assemblymanagement;
 
 public enum Metrics {
 	RELIABILITY,

@@ -22,17 +22,17 @@
  * @author Mauro Caporuscio 
  */
 
-package org.smscom.prime.extension.goprime.management.assemblymanagement;
+package org.prime.extensions.goprime.management.assemblymanagement;
 
 import java.util.Collection;
 import java.util.Map;
 
+import org.prime.core.comm.ICommGateway;
+import org.prime.core.comm.addressing.AURI;
+import org.prime.dns.IMatchMaker;
+import org.prime.extensions.goprime.management.servicemanagement.LocalUtilityMonitor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.smscom.prime.core.comm.ICommGateway;
-import org.smscom.prime.core.comm.addressing.AURI;
-import org.smscom.prime.dns.IMatchMaker;
-import org.smscom.prime.extension.goprime.management.servicemanagement.LocalUtilityMonitor;
 
 
 

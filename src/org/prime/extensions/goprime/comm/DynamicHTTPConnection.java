@@ -22,15 +22,15 @@
  * @author Mauro Caporuscio 
  */
 
-package org.smscom.prime.extension.goprime.comm;
+package org.prime.extensions.goprime.comm;
 
+import org.prime.core.comm.IPrimeConnection;
+import org.prime.core.comm.PrimeHTTPConnection;
+import org.prime.core.comm.addressing.CURI;
+import org.prime.extensions.goprime.management.assemblymanagement.GossipManager;
 import org.restlet.data.MediaType;
 import org.restlet.representation.Representation;
 import org.slf4j.LoggerFactory;
-import org.smscom.prime.core.comm.IPrimeConnection;
-import org.smscom.prime.core.comm.PrimeHTTPConnection;
-import org.smscom.prime.core.comm.addressing.CURI;
-import org.smscom.prime.extension.goprime.management.assemblymanagement.GossipManager;
 import org.slf4j.Logger;
 
 /**

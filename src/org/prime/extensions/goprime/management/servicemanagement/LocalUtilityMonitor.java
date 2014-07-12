@@ -22,20 +22,20 @@
  * @author Mauro Caporuscio 
  */
 
-package org.smscom.prime.extension.goprime.management.servicemanagement;
+package org.prime.extensions.goprime.management.servicemanagement;
 
 import java.io.Serializable;
 import java.util.Collection;
 import java.util.Iterator;
 
-import org.smscom.prime.core.comm.addressing.AURI;
-import org.smscom.prime.core.comm.addressing.CURI;
-import org.smscom.prime.description.Description;
-import org.smscom.prime.description.rdl.QoS;
-import org.smscom.prime.extension.goprime.management.assemblymanagement.AssemblyUtilityMonitor;
-import org.smscom.prime.extension.goprime.management.assemblymanagement.GossipManager;
-import org.smscom.prime.extension.goprime.management.assemblymanagement.Metrics;
-import org.smscom.prime.extension.goprime.management.assemblymanagement.UtilityManager;
+import org.prime.core.comm.addressing.AURI;
+import org.prime.core.comm.addressing.CURI;
+import org.prime.description.Description;
+import org.prime.description.rdl.QoS;
+import org.prime.extensions.goprime.management.assemblymanagement.AssemblyUtilityMonitor;
+import org.prime.extensions.goprime.management.assemblymanagement.GossipManager;
+import org.prime.extensions.goprime.management.assemblymanagement.Metrics;
+import org.prime.extensions.goprime.management.assemblymanagement.UtilityManager;
 
 public class LocalUtilityMonitor extends UtilityManager implements Serializable{
 

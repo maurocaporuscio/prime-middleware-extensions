@@ -23,13 +23,13 @@
  * @author Mauro Caporuscio 
  */
 
-package org.smscom.prime.extension.goprime.comm.protocol;
+package org.prime.extensions.goprime.comm.protocol;
 
 import java.util.Vector;
 
-import org.smscom.prime.core.comm.addressing.CURI;
-import org.smscom.prime.core.comm.protocol.PrimeUnicastMessage;
-import org.smscom.prime.extension.goprime.management.servicemanagement.LocalUtilityMonitor;
+import org.prime.core.comm.addressing.CURI;
+import org.prime.core.comm.protocol.PrimeUnicastMessage;
+import org.prime.extensions.goprime.management.servicemanagement.LocalUtilityMonitor;
 
 public class GOPrimeGossipMessage extends PrimeUnicastMessage {
 

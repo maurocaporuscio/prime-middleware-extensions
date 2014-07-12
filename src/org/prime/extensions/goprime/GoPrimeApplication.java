@@ -22,26 +22,26 @@
  * @author Mauro Caporuscio 
  */
 
-package org.smscom.prime.extension.goprime;
+package org.prime.extensions.goprime;
 
 import java.util.Map;
 
+import org.prime.core.PrimeApplication;
+import org.prime.core.comm.IPrimeConnection;
+import org.prime.core.comm.addressing.AURI;
+import org.prime.core.comm.addressing.CURI;
+import org.prime.description.Description;
+import org.prime.extensions.goprime.comm.DynamicHTTPConnection;
+import org.prime.extensions.goprime.comm.protocol.GOPrimeProtocol;
+import org.prime.extensions.goprime.management.assemblymanagement.AssemblyManager;
+import org.prime.extensions.goprime.management.assemblymanagement.AssemblyUtilityMonitor;
+import org.prime.extensions.goprime.management.assemblymanagement.GossipManager;
+import org.prime.extensions.goprime.management.assemblymanagement.GossipManagerQoS;
+import org.prime.extensions.goprime.management.assemblymanagement.GossipManagerSemantic;
+import org.prime.extensions.goprime.management.assemblymanagement.Metrics;
+import org.prime.extensions.goprime.management.servicemanagement.LocalUtilityMonitor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.smscom.prime.core.PrimeApplication;
-import org.smscom.prime.core.comm.IPrimeConnection;
-import org.smscom.prime.core.comm.addressing.AURI;
-import org.smscom.prime.core.comm.addressing.CURI;
-import org.smscom.prime.description.Description;
-import org.smscom.prime.extension.goprime.comm.DynamicHTTPConnection;
-import org.smscom.prime.extension.goprime.comm.protocol.GOPrimeProtocol;
-import org.smscom.prime.extension.goprime.management.assemblymanagement.AssemblyManager;
-import org.smscom.prime.extension.goprime.management.assemblymanagement.AssemblyUtilityMonitor;
-import org.smscom.prime.extension.goprime.management.assemblymanagement.GossipManager;
-import org.smscom.prime.extension.goprime.management.assemblymanagement.GossipManagerQoS;
-import org.smscom.prime.extension.goprime.management.assemblymanagement.GossipManagerSemantic;
-import org.smscom.prime.extension.goprime.management.assemblymanagement.Metrics;
-import org.smscom.prime.extension.goprime.management.servicemanagement.LocalUtilityMonitor;
 
 
 

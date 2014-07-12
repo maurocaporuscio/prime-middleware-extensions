@@ -22,21 +22,21 @@
  * @author Mauro Caporuscio 
  */
 
-package org.smscom.prime.extension.goprime.management.assemblymanagement;
+package org.prime.extensions.goprime.management.assemblymanagement;
 
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Vector;
 
+import org.prime.core.comm.IMessageHandler;
+import org.prime.core.comm.addressing.AURI;
+import org.prime.core.comm.addressing.CURI;
+import org.prime.core.comm.protocol.PrimeMessage;
+import org.prime.extensions.goprime.comm.protocol.GOPrimeProtocol;
+import org.prime.extensions.goprime.management.servicemanagement.LocalUtilityMonitor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.smscom.prime.core.comm.IMessageHandler;
-import org.smscom.prime.core.comm.addressing.AURI;
-import org.smscom.prime.core.comm.addressing.CURI;
-import org.smscom.prime.core.comm.protocol.PrimeMessage;
-import org.smscom.prime.extension.goprime.comm.protocol.GOPrimeProtocol;
-import org.smscom.prime.extension.goprime.management.servicemanagement.LocalUtilityMonitor;
 
 
 public class AssemblyManager implements IMessageHandler{

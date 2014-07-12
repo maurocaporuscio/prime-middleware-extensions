@@ -1,6 +1,6 @@
-package org.smscom.prime.extension.goprime.comm.protocol;
+package org.prime.extensions.goprime.comm.protocol;
 
-import org.smscom.prime.core.comm.protocol.PrimeProtocol;
+import org.prime.core.comm.protocol.PrimeProtocol;
 
 public class GOPrimeProtocol extends PrimeProtocol{
 
